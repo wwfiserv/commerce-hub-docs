@@ -3,7 +3,7 @@
 ## Overview
 
 Merchant can use the Payment URL integration method to generate a invoice that they can send to a customer, which the customers can then use to pay for their purchase. When the customer clicks on the Payment URL, they are directed to Commerce Hub secured hosted payment page solution where they can securely make the payment with their preferred payment method.
-
+ 
 **User Action:** The merchant needs to invoice a customer's purchase 
 
 1. The merchant provides payment information such as amount, currency to Commerce Hub to create a Payment URL.
