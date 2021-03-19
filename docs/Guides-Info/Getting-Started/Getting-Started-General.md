@@ -19,25 +19,25 @@ Card Not Present (CNP) transactions are initiated when a customer does not physi
 <!-- theme: warning -->
 > CNP transactions are at a higher risk for fraud, due to the inability to verify the account holder is making the purchase. To reduce the risk of card fraud it is recommended to use 3D Secure along with AVS and Security Code verification.
 
-#### RESTful API
+#### [RESTful API](../REST-API/Use-Our-APIs.md)
 
-Allows a merchants to build their own UI and manage cardholder checkout within their own website, software, or terminal using the Commerce Hub [RESTful APIs](../REST-API/Use-Our-APIs.md).
+Allows a merchants to build their own UI and manage customer checkout within their website or software using the Commerce Hub RESTful APIs.
 
-#### Hosted Payment Page
+#### [Hosted Payment Page](../../Card-Not-Present/Hosted-Payment-Page/Hosted-Payment-Page.md)
 
-Commerce Hub Hosted Payment Page allows merchants to redirect their customer to our [payment page](../../Card-Not-Present/Hosted-Payment-Page/Hosted-Payment-Page.md) when they are checking out.
+Commerce Hub Hosted Payment Page allows merchants to redirect their customer to our secure payment page when they are checking out.
 
-#### Payment URL
+#### [Payment URL](../../Card-Not-Present/Payment-URL/Payment-URL.md)
 
-Generate an invoice and share with customer for [payment](../../Card-Not-Present/Payment-URL/Payment-URL.md).
+Generate an invoice and share with customer for payment.
 
-#### Payment.js
+#### [Payment.js](../../Card-Not-Present/Payment-JS/Payment-JS.md)
 
-Commerce Hub's [Payment.js](../../Card-Not-Present/Payment-JS/Payment-JS.md) allows merchants working with various Fiserv APIs and gateways to tokenize payment credentials for later transactions.
+Commerce Hub's Payment.js allows merchants working with various Fiserv APIs and gateways to tokenize payment credentials for later transactions.
 
-#### Virtual POS/ MOTO
+#### [Virtual POS/ MOTO](../../Card-Not-Present/Virtual-Terminal/Virtual-Terminal.md)
 
-Take orders via phone or to run a Void or Return, our [Virtual Terminal](../../Card-Not-Present/Virtual-Terminal/Virtual-Terminal.md) is the ideal solution.
+Take orders via phone or to run a Void or Return, our Virtual Terminal is the ideal solution.
 
 
 ---
@@ -46,11 +46,14 @@ Take orders via phone or to run a Void or Return, our [Virtual Terminal](../../C
 
 Card Present (CP) transactions are initiated when a customer physically presents their payment source at the time of the transaction. Examples of CP transactions include; manual entry, track data and EMV.
 
-### Feature Details
+#### [RESTful API](../REST-API/Use-Our-APIs.md)
+
+Allows a merchants to build their own terminal or software and manage customer checkout within their store, using the Commerce Hub RESTful APIs.
+
 
 ---
 
-## Integrate to Commerce Hub
+<!-- ## Integrate to Commerce Hub
 
 ### Transaction Origin
 
@@ -83,15 +86,5 @@ Card Present (CP) transactions are initiated when a customer physically presents
 - [Payment Token](../Transactions/Payment-Token.md)
 - [Stored Credentials](../Transactions/Stored-Credentials.md)
 
-
-<!--
-
-https://docs.fiserv.com/docs/payments/docs/Welcome%20to%20Fiserv%20Payments.md
-+
-https://docs.fiserv.com/docs/payments/docs/1.%20Introduction
-%20to%20Fiserv%20Payments/Get%20started.md
-
-
->
-
+-->
 
