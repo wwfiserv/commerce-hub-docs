@@ -12,7 +12,7 @@ Beyond accepting customer payments, our services include Tokenization, 3-D Secur
 
 ---
 
-## Card Not Present
+## Online/Digital/Mobile Payments
 
 Card Not Present (CNP) transactions are initiated when a customer does not physically present their payment source at the time of the transaction. Examples of CNP transactions include; online payments, in-app payments, and MOTO transactions.
 
@@ -21,19 +21,28 @@ Card Not Present (CNP) transactions are initiated when a customer does not physi
 
 #### RESTful API
 
-Allows a merchants to build their own UI and manage cardholder checkout within their own website, software, or terminal using the Commerce Hub [RESTful APIs](https://docs.firstdata.com/org/Commerce-Hub/docs/api).
+Allows a merchants to build their own UI and manage cardholder checkout within their own website, software, or terminal using the Commerce Hub [RESTful APIs](../REST-API/Use-Our-APIs.md).
 
 #### Hosted Payment Page
 
-Commerce Hub Hosted Payment Page allows merchants to redirect their customer to our payment page when they are checking out.
+Commerce Hub Hosted Payment Page allows merchants to redirect their customer to our [payment page](../../Card-Not-Present/Hosted-Payment-Page/Hosted-Payment-Page.md) when they are checking out.
 
 #### Payment URL
 
+Generate an invoice and share with customer for [payment](../../Card-Not-Present/Payment-URL/Payment-URL.md).
+
 #### Payment.js
+
+Commerce Hub's [Payment.js](../../Card-Not-Present/Payment-JS/Payment-JS.md) allows merchants working with various Fiserv APIs and gateways to tokenize payment credentials for later transactions.
+
+#### Virtual POS/ MOTO
+
+Take orders via phone or to run a Void or Return, our Virtual Terminal is the ideal solution.
+
 
 ---
 
-## Card Present
+## In Person Payment
 
 Card Present (CP) transactions are initiated when a customer physically presents their payment source at the time of the transaction. Examples of CP transactions include; manual entry, track data and EMV.
 
