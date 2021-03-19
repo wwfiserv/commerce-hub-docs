@@ -2,11 +2,18 @@
 
 ## Overview
 
+Commerce Hub's RESTful API allows a merchant to build their own UI and manage customer transactions within their own website, software, or terminal.
+
 Commerce Hub's RESTful API request consists of the [Header](#request-header) followed by the [Request Body](#request-body).
+
+<!-- theme: warning -->
+> Merchants are required to have the relevant Payment Card Industry (PCI) Compliance capabilities to process and store card data.
 
 ---
 
 ## Request Header
+
+Our RESTful API has a consistent Header structure based on a set of Parameters. To create the header, provide the following values:
 
 | Variable | Type | Length | Description/Values |
 | -------- | :--: | :------------: | ------------------ |
@@ -35,8 +42,8 @@ header: {
 
 ## Request Body
 
-The body of the transaction request differs based on the transaction being initiated. Below is the sample body for a [charge](../Transactions/Charges.md) request.
-</br>
+The body of the API request differs based on the call being initiated. Below is the sample body for a [charge](../Transactions/Charges.md) request.
+
 
 #### Request Body Example
 
@@ -66,27 +73,24 @@ The body of the transaction request differs based on the transaction being initi
 ## API Call Example
 
 A standard API call to execute a charge transaction might look like this:
-
 ```json
-
 {
-    method: "POST",
-    url: "https://test.fiservapps.com/commer-hub/payments/v1/charges",
-    headers: {
-      "Content-Type": "application/json",
-      "Client-Request-Id": "Client request ID goes here",
-      "Api-Key": "Api-Key goes here",
-      "Timestamp": "Date().getTime() goes here",
-      "Auth-Token-Type" :" HMAC",
-      "Authorization": "Authetication Header goes here"
-    },
-    body: JSON.stringify({
-      {
-		"amount": {
+  "method": "POST",
+  "url": "https://api.fiservapps.com/ch/payments/v1/charges",
+  "headers": {
+    "Content-Type": "application/json",
+    "Client-Request-Id": "Client request ID goes here",
+    "Api-Key": "Api-Key goes here",
+    "Timestamp": "Date().getTime() goes here",
+    "Auth-Token-Type" :" HMAC",
+    "Authorization": "Authetication Header goes here"
+  },
+  "body": {
+    "amount": {
 		"total": "12.04",
 		"currency": "USD"
 		},
-		"paymentSource": {
+    "paymentSource": {
 			"sourceType": "PaymentCard",
 			"card": {
 				"cardData": "4005550000000019",
@@ -94,14 +98,12 @@ A standard API call to execute a charge transaction might look like this:
 				"expirationYear": "2035",
 				"securityCode": "123"
 			}
-		},
-		"transactionDetails": {
+    },
+    "transactionDetails": {
 			"captureFlag": true
 		}
-	}
-	})
+	},
 }
-
 ```
 
 ---
