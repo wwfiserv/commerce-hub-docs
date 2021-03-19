@@ -9,4 +9,14 @@ To implement either wallet payment method, please follow the steps under the rel
 Make mention of the encrypted or decrypted wallet and link to appropriate articles.
 
 
-https://docs.fiserv.com/docs/payments/docs/2.%20Payment%20APIs/2.1.%20Taking%20Payments/vi.%20Wallet%20Transactions/1.%20Wallet-Transactions.md
+## Apple Pay
+
+[Apple Pay](../../3DSecure-Wallets/Apple-Pay/Apple-Pay.md) Integration
+
+## Google Pay
+
+[Google Pay](../../3DSecure-Wallets/Google-Pay/Google-Pay.md) Integration
+
+## 3D Secure
+
+[3 Domain](../../3DSecure-Wallets/3D-Secure/3DSecure.md) Security Implementation

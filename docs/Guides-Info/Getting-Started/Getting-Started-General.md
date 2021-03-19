@@ -37,7 +37,7 @@ Commerce Hub's [Payment.js](../../Card-Not-Present/Payment-JS/Payment-JS.md) all
 
 #### Virtual POS/ MOTO
 
-Take orders via phone or to run a Void or Return, our Virtual Terminal is the ideal solution.
+Take orders via phone or to run a Void or Return, our [Virtual Terminal](../../Card-Not-Present/Virtual-Terminal/Virtual-Terminal.md) is the ideal solution.
 
 
 ---

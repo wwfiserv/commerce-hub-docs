@@ -2,7 +2,18 @@
 
 ## Overview
 
-The easiest way to add payment capabilities to merchant website is to implement a HTML form that the merchant can use to enable their customers to make a payment.
+Allows a merchant to redirect their customer to a secure Commerce Hub Hosted Payment Page to process a transaction. The Commmerce Hub Hosted Payment Page manages the customer interactions that are required in the checkout process based on payment method, or authentication mechanisms (3-D Secure).
 
-This type of integration helps merchants to let our Commerce HUB manage the customer redirections that are required in the checkout process of many payment methods or authentication mechanisms and gives merchants the option to use secure hosted pages which can reduce the burden of compliance with the Data Security Standard of the Payment Card Industry (PCI DSS).
+Using secure hosted pages can reduce the burden of compliance with the Data Security Standard of the Payment Card Industry (PCI DSS).
 
+For more information, refer to the [constructing a Hosted Payment Page](url) article for information on how to use our Hosted Payment Page integration.
+
+<!-- theme: info -->
+>A merchant can lessen the PCI DSS load by using Hosted Payment Pages, and still make use of our extended capabilities using our RESTful APIs to access features where no direct consumer interaction is required and no sensitive data is being processed.
+
+
+## Next Steps
+
+- [Taking Payments](Taking-Payments.md)
+- [Completing Transactions](Completing-Transaction.md)
+- [Online Wallets](../../Guides-Info/Getting-Started/Getting-Started-Wallets.md)
