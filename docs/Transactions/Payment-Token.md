@@ -16,7 +16,7 @@
 - `createToken`: *boolean* : *true*
 
 <!-- theme: warning -->
-> For merchants using multiple tokenization services, `tokenProvider` is required.
+> For merchants using multiple tokenization services, `tokenProvider` is a required field.
 
 ### Endpoint
 <!-- theme: success -->
@@ -118,7 +118,7 @@ title: Response
 #### Required Field
 
 <!-- theme: warning -->
-> For merchants using multiple tokenization services, `tokenProvider` is required.
+> For merchants using multiple tokenization services, `tokenProvider` is a required field.
 
 ### Endpoint
 <!-- theme: success -->
