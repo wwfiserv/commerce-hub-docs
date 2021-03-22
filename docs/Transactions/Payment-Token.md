@@ -41,9 +41,10 @@ title: Request
     "securityCode": "123"
   },
   "transactionDetails": {
-    "captureFlag": false
-  },
-  "createToken": true
+    "captureFlag": false,
+    "createToken": true
+    "tokenProvider": "RSA"
+  }
 }
 ```
 <!--
@@ -135,7 +136,7 @@ title: Request
     "securityCode": "123"
   },
   "transactionDetails": {
-    "captureFlag": "FALSE"
+    "captureFlag": false
   }
 }
 ```
