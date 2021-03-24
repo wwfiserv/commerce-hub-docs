@@ -11,6 +11,16 @@ For more information, refer to the [constructing a Hosted Payment Page](url) art
 <!-- theme: info -->
 >A merchant can lessen the PCI DSS load by using Hosted Payment Pages, and still make use of our extended capabilities using our RESTful APIs to access features where no direct consumer interaction is required and no sensitive data is being processed.
 
+## Additional Security Settings
+
+The following recommendations are to limit potential for fraudulent activity on your hosted payment page.
+
+**Recommendations**
+
+- Enable Re-Captcha
+- Authentication/Login requirement to access the payment page
+- Limit response back to the browser/customer
+- Follow [fraud best practices](../../Guides-Info/Fraud/Fraud-Settings.md) for the business type or payment flow
 
 ## Next Steps
 
