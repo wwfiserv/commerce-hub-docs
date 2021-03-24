@@ -2,7 +2,7 @@
 tags: [carat, commerce-hub, card-not-present, card-present, hash, primary-transactions, secondary-transactions]
 ---
 
-# Transaction Types
+# Secondary Transaction Types
 
 ## Overview
 

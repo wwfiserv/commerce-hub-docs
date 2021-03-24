@@ -17,7 +17,7 @@ Beyond accepting customer payments, our services include Tokenization, 3-D Secur
 Card Not Present (CNP) transactions are initiated when a customer does not physically present their payment source at the time of the transaction. Examples of CNP transactions include; online payments, in-app payments, and MOTO transactions.
 
 <!-- theme: warning -->
-> CNP transactions are at a higher risk for fraud, due to the inability to verify the account holder is making the purchase. To reduce the risk of card fraud it is recommended to use 3D Secure along with AVS and Security Code verification.
+> CNP transactions are at a higher risk for fraud, due to the inability to verify the account holder is making the purchase. To reduce the risk of card fraud it is recommended to use [3D Secure](../../CNP-Online-Digital-Mobile/3DSecure-Wallets/3D-Secure/3DSecure.md) along with [AVS](../Fraud/Address-Verification.md) and [Security Code](../Fraud/Security-Code.md) verification.
 
 #### [RESTful API](../REST-API/Use-Our-APIs.md)
 
@@ -48,7 +48,7 @@ Card Present (CP) transactions are initiated when a customer physically presents
 
 #### [RESTful API](../REST-API/Use-Our-APIs.md)
 
-Allows a merchants to build their own terminal or software and manage customer checkout within their store, using the Commerce Hub RESTful APIs.
+Allows a merchants to build their own [terminal](../../CP-In-Person/Terminal/Getting-started-Terminal.md) or [software](../../CNP-CP-Common/Software/Software.md) and manage customer checkout within their store, using the Commerce Hub RESTful APIs.
 
 
 ---
