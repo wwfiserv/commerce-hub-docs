@@ -1,0 +1,86 @@
+{
+  "title": "Commerce Hub",
+  "name": "CommerceHub",
+  "brand": "Carat",
+  "brandLogoURL": "https://raw.githubusercontent.com/tomeck/transactionenrichmentstoplight/main/docs/carat_logo.png",
+  "solution": "Payments",
+  "brandDescription": "Our powerful omnichannel commerce solutions help companies reach untapped markets and expand globally without being limited by borders, currencies or old ways of thinking.\n      Carat's single-source commerce engine makes the process seamless, effortless, and secure. We've unified our suite of solutions into a powerful tech ecosystem so you can create commerce.\n      Carat's single-source commerce engine makes the process seamless, effortless, and secure. We've unified our suite of solutions into a powerful tech ecosystem so you can create commerce. Carat's single-source commerce engine makes the process seamless, effortless, and secure. We've unified our suite of solutions into a powerful tech ecosystem so you can create commerce.",
+  "categories": [
+    {
+      "name": "businessTypes",
+      "value": "Business Types",
+      "subcategories": [
+        {
+          "name": "enterprise",
+          "value": "Enterprise"
+        }
+      ]
+    },
+    {
+      "name": "integrationTypes",
+      "value": "Integration Types",
+      "subcategories": [
+        {
+          "name": "cardPresent",
+          "value": "Card Present"
+        },
+        {
+          "name": "cardNotPresent",
+          "value": "Card Not Present"
+        }
+      ]
+    },
+    {
+      "name": "industryTypes",
+      "value": "Industry Types",
+      "subcategories": [
+        {
+          "name": "Airline",
+          "value": "Airline"
+        },
+        {
+          "name": "CAR_RENTAL",
+          "value": "Car Rental"
+        },
+        {
+          "name": "eCommerce",
+          "value": "eCommerce"
+        },
+        {
+          "name": "Restuarant",
+          "value": "Restuarant"
+        }
+      ]
+    }
+  ],
+  "product": {
+    "featured": true,
+    "logoURL": "https://raw.githubusercontent.com/Fiserv/Commerce-Hub/develop/assets/images/Commerce-Hub-Circle.png",
+    "description": "Fast developmet time and speed to market with the omnichannel engine built for large businesses. Deliver commerce innovaions and transform customer experiences via simple integrations.",
+    "longDescription":"Fast developmet time and speed to market with the omnichannel engine built for large businesses. Deliver commerce innovaions and transform customer experiences via simple integrations.\n<ul><li>Configurable boarding experience</li><li> Orchestration layer and workflow customizations</li><li> API translator and flexible communication standards</li></ul>",
+    "apiSpecification": "/v1/apis",
+    "layout": "/v1/layouts",
+    "documentation": "/v1/docs",
+    "documenttree": "/v1/docs",
+    "documenttreeV2": "/v2/docs",
+    "sandbox": "/v1/sandboxrun",
+    "feature":[
+      {
+        "name": "sandBox",
+        "value": true
+      },
+      {
+        "name": "plugins",
+        "value": false
+      },
+      {
+        "name": "industryOptionsAPIExplorer",
+        "value": false
+      },
+      {
+        "name": "editParameterAPIExplorer",
+        "value": true
+      }
+     ]
+  }
+}

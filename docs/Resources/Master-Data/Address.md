@@ -8,7 +8,7 @@ A merchant may need to send the customer's address in the transaction request fo
 
 ## Billing Address
 
-Is an address connected to the customer's [payment method](../Guides-Info/Payment-Source/Source-Type.md).
+Is an address connected to the customer's [payment method](../Guides/Payment-Sources/Source-Type.md).
 
 #### Component: billingAddress
 
@@ -35,7 +35,9 @@ Is an address where merchant will send the order.
 | `address` | *array* |  | Shipping [address](#subcomponent-address) details. |
 | `phone` | *array* |  | Shipping contact [phone](Customer-Details.md#subcomponent-phone) details. |
 
-##### Shipping Method
+### Shipping Method
+
+#### Object: shippingMethod
 
 | Value | Description |
 | ----- | ----------- |
@@ -59,15 +61,15 @@ Is an address where merchant will send the order.
 | `city` | *string* |  | City or locality |
 | `stateOrProvince` | *string* |  | State or Province name |
 | `postalCode` | *string* |  | Postal code |
-| `country` | *string* |  | [Country Code](Country-Code.md)|
+| `country` | *string* |  | [Country Code](?path=docs/Resources/Master-Data/Country-Code.md)|
 
 ---
 
 ## See Also
 
-- [API Explorer](url)
-- [Address Verification](../Guides-Info/Fraud/Address-Verification.md)
-- [Capture](../Transactions/Capture.md)
-- [Charge](../Transactions/Charges.md)
+- [API Explorer](../api/?type=post&path=/payments/v1/charges)
+- [Address Verification](?path=docs/Resources/Guides/Fraud/Address-Verification.md)
+- [Capture](?path=docs/Resources/API-Documents/Payments/Capture.md)
+- [Charge](?path=docs/Resources/API-Documents/Payments/Charges.md)
 
 ---

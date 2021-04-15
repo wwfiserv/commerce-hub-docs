@@ -14,8 +14,8 @@ The country codes can be represented either as a two-letter code *(Alpha-2)* whi
 
 The table below contains all the countries and their Alpha 2, Alpha 3 and Numberic values. 
 
-Country | Alpha 2 | Alpha 3 | Numeric |
-------- | ------- | ------- | -------|
+| Country | Alpha 2 | Alpha 3 | Numeric |
+| ------- | ------- | ------- | -------|
 |Afghanistan | AF | AFG | 004|
 |Aland Islands | AX | ALA | 248|
 |Albania | AL | ALB | 008|
@@ -268,8 +268,8 @@ Country | Alpha 2 | Alpha 3 | Numeric |
 
 ## See Also
 
-- [API Explorer](url)
-- [Amount Components](Amount-Components.md)
-- [Currency Conversion](../Guides/Currency-Conversion.md)
+- [API Explorer](../api/?type=post&path=/payments/v1/charges)
+- [Amount Components](?path=docs/Resources/Master-Data/Amount-Components.md)
+- [Currency Conversion](?path=docs/Resources/Master-Data/Currency-Code.md)
 
 ---
